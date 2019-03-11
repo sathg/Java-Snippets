@@ -2,6 +2,6 @@
 comment0.target=Part2
 comment1.params=dna
 comment1.target=float\ cgRatio(java.lang.String)
-comment2.params=dna
-comment2.target=int\ countCTG(java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
 numComments=3

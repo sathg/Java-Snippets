@@ -65,13 +65,14 @@ public class WhichCountriesExport {
         // }
         
         String cInfo = countryInfo(parser, "Nauru");
-        System.out.println("Country Info -->"+ cInfo);
+        // System.out.println("Country Info -->"+ cInfo);
 
         parser = fr.getCSVParser();
-        listExportersTwoProducts(parser,"fish", "nuts");
+        //cotton and flowers
+        listExportersTwoProducts(parser,"cotton", "flowers");
         parser = fr.getCSVParser();
-        int noofExp = numberOfExporters(parser, "gold");
-        System.out.println("NO OF EXP gold -->"+ noofExp);
+        int noofExp = numberOfExporters(parser, "cocoa");
+        System.out.println("NO OF EXP cocoa -->"+ noofExp);
         parser = fr.getCSVParser();
         bigExporters(parser,"$999,999,999,999");
 
